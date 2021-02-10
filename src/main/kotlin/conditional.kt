@@ -20,17 +20,24 @@ fun main() {
 
     val x= 3
     when(x){
-        1 -> println(1)
+        0,1 -> println(1)
         2 -> println(2)
+        in 4..10 -> println("4-10")
+//        !in
         else -> {
             println("nf")
         }
     }
 
+    var str:String = when(x){
+        1 -> "a"
+        else -> {
+            "a"
+            "b"
+        }
+    }
+
+    println(str)
+
 //    if when expressions
-
-
-
-
-
 }
