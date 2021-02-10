@@ -1,12 +1,17 @@
 package com.programming
 
 
-class Person{
+class Person(var name: String){
 
-    var name:String = ""
+//    var name:String = ""
 
-    fun display(name: String){
-        print(name)
-    }
+      fun display(){
+          print("name : $name")
+      }
+
+
+//    fun display(name: String){
+//        print(name)
+//    }
 }
 
