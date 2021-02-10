@@ -1,3 +1,4 @@
+import com.programming.Person
 
 fun main(args:Array<String>){
 //    var x:String;
@@ -6,14 +7,5 @@ fun main(args:Array<String>){
 //    personObj.display(x);
     person.name ="abcd";
     person.display(person.name)
+    print("name: ${person.name}")
 }
-
-class Person{
-
-    var name:String = ""
-
-    fun display(name: String){
-        print(name)
-    }
-}
-
