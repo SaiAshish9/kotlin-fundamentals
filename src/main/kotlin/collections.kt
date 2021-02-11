@@ -16,6 +16,32 @@ fun main(args:Array<String>) {
         println(i)
     }
 
+
+    var list = listOf<String>("a","b","c")
+
+    for(i in list){
+        println(i)
+    }
+
+    for(i in 0..list.size-1){
+        println(i)
+        println(list[i])
+    }
+
+    list = mutableListOf<String>("a","b")
+    list.add("d")
+    list.remove("a")
+    list.add(1,"e")
+
+    list = ArrayList<String>()
+    list = arrayListOf<String>()
+
+//    var list:ArrayList<String> = ArrayList<String>()
+
+
+
+
+
 }
 
 // Collections
