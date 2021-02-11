@@ -23,11 +23,9 @@ fun main() {
 
 open class Animal {
     open var color: String = ""
-
     open fun eat() {
         println("eat")
     }
-
 }
 
 // public final class -> class
@@ -38,42 +36,33 @@ open class Animal {
 
 open class Test{
     open fun eat(){
-
     }
 }
 
 
-class Dog : Animal(){
-
+class Dog() : Animal(){
     var breed: String = ""
-
     override var color:String="red"
-
     fun bark() {
         println("bark")
     }
-
     override fun eat() {
         super<Animal>.eat()
 //        super.eat()
 //        multiple inheritance is not allowed
         println("dog")
     }
-
 }
 
 class Cat : Animal() {
     var age: Int = -1
-
     fun meow() {
         println("meow")
     }
-
     override fun eat() {
         super.eat()
         println("cat")
     }
-
 }
 
 // by default classes are public and final
