@@ -5,7 +5,7 @@ fun main() {
 
 }
 
-open abstract class Per{
+abstract class Per{
 
     abstract var name:String
     abstract fun eat()

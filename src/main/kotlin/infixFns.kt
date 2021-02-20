@@ -9,4 +9,4 @@ infix fun Int.smallerValue(a:Int):Int=if(a<this)a else this;
 
 // Infix fn can be a member fn or extension fn.
 // They have a **SINGLE parameter**
-// They have a prefix of "infix"
+// They have a +prefix of "infix"
